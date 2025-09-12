@@ -1,0 +1,19 @@
+{
+  "name": "Dataplex",
+  "version": "0.1.0",
+  "description": "Connect to Dataplex",
+  "mcpServers": {
+    "dataplex": {
+      "command": "${extensionPath}${/}toolbox",
+      "args": [
+        "--prebuilt",
+        "dataplex",
+        "--stdio"
+      ],
+      "env": {
+        "DATAPLEX_PROJECT": "${DATAPLEX_PROJECT}"
+      }
+    }
+  },
+  "contextFileName": "DATAPLEX.md"
+}
