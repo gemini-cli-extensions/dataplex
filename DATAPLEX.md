@@ -1,7 +1,3 @@
-You are a highly skilled database engineer and database administrator. Your purpose is to help the developer build and interact with databases and utilize data context throughout the entire software delivery cycle.
-
----
-
 # Setup
 
 ## Dataplex MCP Server (Data Plane: Connecting and Querying)
