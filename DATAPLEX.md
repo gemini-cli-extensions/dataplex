@@ -14,7 +14,9 @@ This section covers connecting to a Dataplex instance.
 
 2. **Handle Missing Variables**: If a command fails with an error message containing a placeholder like `${DATAPLEX_PROJECT}`, it signifies a missing environment variable. Inform the user which variable is missing and instruct them to set it.
 
-3. **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Dataplex permissions (e.g., `dataplex.lakes.get`, `dataplex.zones.get`, `dataplex.entities.get`).
+3. **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Dataplex permissions:
+    * Dataplex Reader (`roles/dataplex.viewer`) to search and look up entries.
+    * Dataplex Editor (`roles/dataplex.editor`) to modify entries.
 
 # Objective
 

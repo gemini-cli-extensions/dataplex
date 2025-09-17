@@ -36,11 +36,11 @@ Interact with Dataplex using natural language right from your IDE:
 
 * **Explore Catalog and Metadata:**
   * "Find all catalog entries related to 'customer orders'."
-  * "What is the schema for the 'products' table?"
+  * "Which columns look similar across marketing and sales datasets?"
   * "Show me the description and owner for the 'customer_pii' entry."
-
-* **Generate Code:**
-  * "Generate a Python dataclass from the schema of the 'customers' table."
+  
+* **Perform Ad-hoc Analysis:**
+  * "Calculate the total 'customer orders' this month."
 
 ## Supported Tools
 
