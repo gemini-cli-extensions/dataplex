@@ -14,7 +14,9 @@ Before you begin, ensure you have the following:
 
 * [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed.
 * A Google Cloud project with the **Dataplex API** enabled.
-* IAM Permissions
+* IAM Permissions:
+  * Dataplex Data Reader (`roles/dataplex.dataReader`): For reading data from the underlying assets (e.g., to run analytics queries).
+  * Service Usage Consumer (`roles/serviceusage.serviceUsageConsumer`)
 
 ## Installation
 
@@ -46,10 +48,10 @@ Interact with Dataplex using natural language right from your IDE:
 * `lookup_entry`: Use this tool to retrieve a specific entry from Dataplex Catalog.
 * `search_aspect_types`: Use this tool to find aspect types relevant to the query.
 
-## Security
+## Additional Extensions
 
-This extension executes commands against your Dataplex service. Always review the commands before execution.
+Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions).
 
-## Disclaimer
+## Troubleshooting
 
-This is not an officially supported Google product. This extension is under active development, and breaking changes may be introduced.
+* "cannot execute binary file": Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
