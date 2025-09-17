@@ -164,7 +164,6 @@ Entries can be linked together using EntryLinks to represent relationships betwe
 ## General
 
 * Do not try to search within search results on your own.
-
 * Do not fetch multiple pages of results unless explicitly asked.
 
 ## Search syntax
