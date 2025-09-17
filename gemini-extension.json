@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Connect to Dataplex",
   "mcpServers": {
-    "dataplex": {
+    "Dataplex": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
