@@ -9,10 +9,7 @@
         "--prebuilt",
         "dataplex",
         "--stdio"
-      ],
-      "env": {
-        "DATAPLEX_PROJECT": "${DATAPLEX_PROJECT}"
-      }
+      ]
     }
   },
   "contextFileName": "DATAPLEX.md"
