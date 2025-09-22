@@ -1,7 +1,7 @@
 # Gemini CLI Extension - Dataplex
 
 > [!NOTE]
-> This extension is currently in beta, and may see breaking changes until the first stable release (v1.0).
+> This extension is currently in beta (pre-v1.0), and may see breaking changes until the first stable release (v1.0).
 
 This Gemini CLI extension provides a set of tools to interact with [Dataplex](https://cloud.google.com/dataplex/docs) instances. It allows you to manage your data lakes, zones, and assets directly from the [Gemini CLI](https://google-gemini.github.io/gemini-cli/), using natural language prompts.
 
@@ -37,7 +37,7 @@ Set the following environment variables before starting the Gemini CLI:
 
 * `DATAPLEX_PROJECT`: The GCP project ID.
 
-Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment. 
+Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
 
 ## Usage Examples
 
@@ -47,7 +47,7 @@ Interact with Dataplex using natural language right from your IDE:
   * "Find all catalog entries related to 'customer orders'."
   * "Which columns look similar across marketing and sales datasets?"
   * "Show me the description and owner for the 'customer_pii' entry."
-  
+
 * **Perform Ad-hoc Analysis:**
   * "Calculate the total 'customer orders' this month."
 
