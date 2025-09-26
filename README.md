@@ -23,7 +23,9 @@ Before you begin, ensure you have the following:
   * Dataplex Data Reader (`roles/dataplex.dataReader`): For reading data from the underlying assets (e.g., to run analytics queries).
   * Service Usage Consumer (`roles/serviceusage.serviceUsageConsumer`)
 
-## Installation
+## Getting Started
+
+### Installation
 
 To install the extension, use the command:
 
@@ -31,13 +33,21 @@ To install the extension, use the command:
 gemini extensions install https://github.com/gemini-cli-extensions/dataplex
 ```
 
-## Configuration
+### Configuration
 
 Set the following environment variables before starting the Gemini CLI:
 
 * `DATAPLEX_PROJECT`: The GCP project ID.
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
+
+### Start Gemini CLI
+
+To start the Gemini CLI, use the following command:
+
+```bash
+gemini
+```
 
 ## Usage Examples
 
@@ -63,4 +73,6 @@ Find additional extensions to support your entire software development lifecycle
 
 ## Troubleshooting
 
-* "cannot execute binary file": Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
+* "✖ Error during discovery for server: MCP error -32000: Connection closed": The database connection has not been established. Ensure your configuration is set via environment variables.
+* "✖ MCP ERROR: Error: spawn /Users/<USER>/.gemini/extensions/cloud-sql-sqlserver/toolbox ENOENT": The Toolbox binary did not download correctly. Ensure you are using Gemini CLI v0.6.0+.
+* "cannot execute binary file": The Toolbox binary did not download correctly. Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
