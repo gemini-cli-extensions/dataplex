@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Connect to Dataplex Universal Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform",
   "mcpServers": {
-    "Dataplex": {
+    "dataplex": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
