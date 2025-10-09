@@ -4,6 +4,10 @@ Your primary objective is to help discover, organize and manage metadata related
 
 # Setup
 
+## Required Gemini CLI Version
+
+To install this extension, the Gemini CLI version must be v0.6.0 or above. The version can be found by running: `gemini --version`.
+
 ## Dataplex MCP Server (Data Plane: Connecting and Querying)
 
 This section covers connecting to a Dataplex instance.
