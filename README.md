@@ -46,7 +46,9 @@ gemini extensions install https://github.com/gemini-cli-extensions/dataplex
 
 Set the following environment variables before starting the Gemini CLI. These variables can be loaded from a `.env` file.
 
-* `DATAPLEX_PROJECT`: The GCP project ID.
+```bash
+export DATAPLEX_PROJECT="<your-gcp-project-id>"
+```
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
 
