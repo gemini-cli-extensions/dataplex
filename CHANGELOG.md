@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/gemini-cli-extensions/dataplex/compare/0.1.1...0.1.2) (2025-12-11)
+
+
+### Bug Fixes
+
+* Update dataplex context for new syntax ([#60](https://github.com/gemini-cli-extensions/dataplex/issues/60)) ([82281dd](https://github.com/gemini-cli-extensions/dataplex/commit/82281dd94143814629cd47729220ea2f85af9096))
+
 ## [0.1.1](https://github.com/gemini-cli-extensions/dataplex/compare/0.1.0...0.1.1) (2025-09-30)
 
 
