@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/gemini-cli-extensions/dataplex/compare/0.1.2...0.1.3) (2025-12-29)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.24.0 ([#62](https://github.com/gemini-cli-extensions/dataplex/issues/62)) ([fccf2a5](https://github.com/gemini-cli-extensions/dataplex/commit/fccf2a5979bbc49b82a8b4c9074868f77df5b385))
+
 ## [0.1.2](https://github.com/gemini-cli-extensions/dataplex/compare/0.1.1...0.1.2) (2025-12-11)
 
 
