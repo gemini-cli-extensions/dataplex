@@ -1,6 +1,6 @@
 {
   "name": "dataplex",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Connect to Dataplex Universal Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform",
   "mcpServers": {
     "dataplex": {
