@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.2.0](https://github.com/gemini-cli-extensions/dataplex/compare/0.1.4...0.2.0) (2026-01-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Validate tool naming ([genai-toolbox#​2305](https://redirect.github.com/googleapis/genai-toolbox/issues/2305)) ([5054212](https://redirect.github.com/googleapis/genai-toolbox/commit/5054212fa43017207fe83275d27b9fbab96e8ab5))
+
+### Features
+
+* **embeddingModel:** Add embedding model to MCP handler ([genai-toolbox#​2310](https://redirect.github.com/googleapis/genai-toolbox/issues/2310)) ([e4f60e5](https://redirect.github.com/googleapis/genai-toolbox/commit/e4f60e56335b755ef55b9553d3f40b31858ec8d9)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* **prebuilt/cloud-sql:** Add create backup tool for Cloud SQL ([genai-toolbox#​2141](https://redirect.github.com/googleapis/genai-toolbox/issues/2141)) ([8e0fb03](https://redirect.github.com/googleapis/genai-toolbox/commit/8e0fb0348315a80f63cb47b3c7204869482448f4)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* **prebuilt/cloud-sql:** Add restore backup tool for Cloud SQL ([genai-toolbox#​2171](https://redirect.github.com/googleapis/genai-toolbox/issues/2171)) ([00c3e6d](https://redirect.github.com/googleapis/genai-toolbox/commit/00c3e6d8cba54e2ab6cb271c7e6b378895df53e1)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* **tools:** Add `valueFromParam` support to Tool config ([genai-toolbox#​2333](https://redirect.github.com/googleapis/genai-toolbox/issues/2333)) ([15101b1](https://redirect.github.com/googleapis/genai-toolbox/commit/15101b1edbe2b85a4a5f9f819c23cf83138f4ee1)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* add Configuration settings ([#67](https://github.com/gemini-cli-extensions/dataplex/issues/67)) ([1c05d52](https://github.com/gemini-cli-extensions/dataplex/commit/1c05d52d1907373855b146c76d7793ba3056585e))
+* Add new `user-agent-metadata` flag ([genai-toolbox#​2302](https://redirect.github.com/googleapis/genai-toolbox/issues/2302)) ([adc9589](https://redirect.github.com/googleapis/genai-toolbox/commit/adc9589766904d9e3cbe0a6399222f8d4bb9d0cc)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* Add remaining flag to Toolbox server in MCP registry ([genai-toolbox#​2272](https://redirect.github.com/googleapis/genai-toolbox/issues/2272)) ([5e0999e](https://redirect.github.com/googleapis/genai-toolbox/commit/5e0999ebf5cdd9046e96857738254b2e0561b6d2)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* Support combining multiple prebuilt configurations ([genai-toolbox#​2295](https://redirect.github.com/googleapis/genai-toolbox/issues/2295)) ([e535b37](https://redirect.github.com/googleapis/genai-toolbox/commit/e535b372ea81864d644a67135a1b07e4e519b4b4)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* Support MCP specs version 2025-11-25 ([genai-toolbox#​2303](https://redirect.github.com/googleapis/genai-toolbox/issues/2303)) ([4d23a3b](https://redirect.github.com/googleapis/genai-toolbox/commit/4d23a3bbf2797b1f7fe328aeb5789e778121da23)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+* Validate tool naming ([genai-toolbox#​2305](https://redirect.github.com/googleapis/genai-toolbox/issues/2305)) ([5054212](https://redirect.github.com/googleapis/genai-toolbox/commit/5054212fa43017207fe83275d27b9fbab96e8ab5)) ([cbaee3d](https://github.com/gemini-cli-extensions/dataplex/commit/cbaee3dfa77050e7bbacbc7ffdd40c9992de4bf4))
+
 ## [0.1.4](https://github.com/gemini-cli-extensions/dataplex/compare/0.1.3...0.1.4) (2026-01-15)
 
 
