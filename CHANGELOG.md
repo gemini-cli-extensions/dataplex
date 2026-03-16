@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.3.0](https://github.com/gemini-cli-extensions/dataplex/compare/0.2.2...0.3.0) (2026-03-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* telemetry metrics updates as per semantic convention ([genai-toolbox#​2566](https://redirect.github.com/googleapis/genai-toolbox/issues/2566))
+* **source/dataplex:** restructure prebuilt toolsets ([genai-toolbox#​2640](https://redirect.github.com/googleapis/genai-toolbox/issues/2640))
+
+### Features
+
+* **skill:** Attach user agent metadata for generated skill ([genai-toolbox#​2697](https://redirect.github.com/googleapis/genai-toolbox/issues/2697)) ([9598a6a](https://redirect.github.com/googleapis/genai-toolbox/commit/9598a6a32597b9c9abdb0f20c06d86a01b0d011f)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **skill:** Update skill generation logic ([genai-toolbox#​2646](https://redirect.github.com/googleapis/genai-toolbox/issues/2646)) ([c233eee](https://redirect.github.com/googleapis/genai-toolbox/commit/c233eee98cd9621526cb286245f3874f5bd6e7da)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **skills:** Add additional-notes flag to generate skills command ([genai-toolbox#​2696](https://redirect.github.com/googleapis/genai-toolbox/issues/2696)) ([73bf962](https://redirect.github.com/googleapis/genai-toolbox/commit/73bf962459b76872f748248bb5e289be232a30b6)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **source/dataplex:** restructure prebuilt toolsets ([genai-toolbox#​2640](https://redirect.github.com/googleapis/genai-toolbox/issues/2640)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **source/dataplex:** Restructure prebuilt toolsets ([genai-toolbox#​2640](https://redirect.github.com/googleapis/genai-toolbox/issues/2640)) ([acb9a80](https://redirect.github.com/googleapis/genai-toolbox/commit/acb9a80cf2438e04c76cf10267b1c9ca9227da0b)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* Add user agent to embeddings generation ([genai-toolbox#​2572](https://redirect.github.com/googleapis/genai-toolbox/issues/2572)) ([287251a](https://redirect.github.com/googleapis/genai-toolbox/commit/287251a0cfed4d24617e5d0d957026a94f65d820)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* telemetry metrics updates as per semantic convention ([genai-toolbox#​2566](https://redirect.github.com/googleapis/genai-toolbox/issues/2566)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* Telemetry metrics updates as per semantic convention ([genai-toolbox#​2566](https://redirect.github.com/googleapis/genai-toolbox/issues/2566)) ([131d764](https://redirect.github.com/googleapis/genai-toolbox/commit/131d764f895c14908e29914b3c0c273d91a2654f)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+
+
+### Bug Fixes
+
+* **mcp:** Guard nil SSE session lookup and return 400 for missing session ([genai-toolbox#​2681](https://redirect.github.com/googleapis/genai-toolbox/issues/2681)) ([f66189f](https://redirect.github.com/googleapis/genai-toolbox/commit/f66189fe43cb711da3a041fa31edbacd7bbc7153)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **oracle:** Update oracle-execute-sql tool interface to match source signature ([genai-toolbox#​2627](https://redirect.github.com/googleapis/genai-toolbox/issues/2627)) ([81699a3](https://redirect.github.com/googleapis/genai-toolbox/commit/81699a375b7e5af37945f4124aa4c5f2a1a9f7a6)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **server/mcp:** Scope defer span.End inside loop iteration ([genai-toolbox#​2558](https://redirect.github.com/googleapis/genai-toolbox/issues/2558)) ([c88a62d](https://redirect.github.com/googleapis/genai-toolbox/commit/c88a62dcf4c16118ae706cc43d18cad827e7496d)), closes [genai-toolbox#​2549](https://redirect.github.com/googleapis/genai-toolbox/issues/2549) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **skill:** Fix env variable propagation ([genai-toolbox#​2645](https://redirect.github.com/googleapis/genai-toolbox/issues/2645)) ([5271368](https://redirect.github.com/googleapis/genai-toolbox/commit/52713687208994c423da64333cb0a04fb483f794)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **telemetry:** Histogram buckets from OTel standard to MCP standards ([genai-toolbox#​2729](https://redirect.github.com/googleapis/genai-toolbox/issues/2729)) ([87cd4a0](https://redirect.github.com/googleapis/genai-toolbox/commit/87cd4a0bf48605225ef25ca554cc787def976d11)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* **ui:** Remove module from script ([genai-toolbox#​2703](https://redirect.github.com/googleapis/genai-toolbox/issues/2703)) ([6943ab6](https://redirect.github.com/googleapis/genai-toolbox/commit/6943ab6839d21da7b6a4241700c7891c6f4a9b2c)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* Improve list locks integration test for postgres ([genai-toolbox#​2279](https://redirect.github.com/googleapis/genai-toolbox/issues/2279)) ([d9ebe5d](https://redirect.github.com/googleapis/genai-toolbox/commit/d9ebe5d4bf1b7ca04cae47386b36c38ca5b77b8a)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* Return AllParams for GetParameter() for tools with templateParameter([genai-toolbox#​2734](https://redirect.github.com/googleapis/genai-toolbox/issues/2734)) ([bfd7ba6](https://redirect.github.com/googleapis/genai-toolbox/commit/bfd7ba601a52294fa71623d88af71bd0288bf887)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+* Update toolset attributes naming ([genai-toolbox#​2554](https://redirect.github.com/googleapis/genai-toolbox/issues/2554)) ([3d6ae4e](https://redirect.github.com/googleapis/genai-toolbox/commit/3d6ae4eeaf5acfbde83374a244573edd8fc9012b)) ([7e9fdd1](https://github.com/gemini-cli-extensions/dataplex/commit/7e9fdd1141c48c2397edbdb6985c42ef3f300b96))
+
 ## [0.2.2](https://github.com/gemini-cli-extensions/dataplex/compare/0.2.1...0.2.2) (2026-03-03)
 
 
