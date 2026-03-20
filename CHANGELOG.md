@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/gemini-cli-extensions/dataplex/compare/0.3.0...0.3.1) (2026-03-20)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.30.0 ([#89](https://github.com/gemini-cli-extensions/dataplex/issues/89)) ([0341db1](https://github.com/gemini-cli-extensions/dataplex/commit/0341db179417f95ad00b243edbb6f27de4717fc6))
+
 ## [0.3.0](https://github.com/gemini-cli-extensions/dataplex/compare/0.2.2...0.3.0) (2026-03-16)
 
 
