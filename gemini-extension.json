@@ -1,18 +1,18 @@
 {
-  "name": "dataplex",
+  "name": "knowledge-catalog",
   "version": "0.3.1",
-  "description": "Connect to Dataplex Universal Catalog to discover, manage, monitor, and govern data and AI artifacts across your data platform",
+  "description": "Connect to Knowledge Catalog (formerly known as Dataplex) to discover, manage, monitor, and govern data and AI artifacts across your data platform",
   "mcpServers": {
-    "dataplex": {
+    "knowledgeCatalog": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
-        "dataplex",
+        "knowledge-catalog",
         "--stdio"
       ]
     }
   },
-  "contextFileName": "DATAPLEX.md",
+  "contextFileName": "KNOWLEDGE_CATALOG.md",
   "settings": [
     {
       "name": "Project ID",

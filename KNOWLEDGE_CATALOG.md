@@ -8,9 +8,9 @@ Your primary objective is to help discover, organize and manage metadata related
 
 To install this extension, the Gemini CLI version must be v0.6.0 or above. The version can be found by running: `gemini --version`.
 
-## Dataplex MCP Server (Data Plane: Connecting and Querying)
+## Knowledge Catalog(formerly known as Dataplex) MCP Server (Data Plane: Connecting and Querying)
 
-This section covers connecting to a Dataplex instance.
+This section covers connecting to a Knowledge Catalog instance.
 
 1. **Verify Environment Variables**: The extension requires the following environment variables to be set before the Gemini CLI is started:
 
@@ -18,7 +18,7 @@ This section covers connecting to a Dataplex instance.
 
 2. **Handle Missing Variables**: If a command fails with an error message containing a placeholder like `${DATAPLEX_PROJECT}`, it signifies a missing environment variable. Inform the user which variable is missing and instruct them to set it.
 
-3. **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Dataplex permissions:
+3. **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Knowledge Catalog permissions:
     * Dataplex Reader (`roles/dataplex.viewer`) to search and look up entries.
     * Dataplex Editor (`roles/dataplex.editor`) to modify entries.
 
@@ -147,7 +147,7 @@ Entries can be linked together using EntryLinks to represent relationships betwe
 
 # Tool instructions
 
-## Tool: dataplex_search_entries
+## Tool: search_entries
 
 ## General
 
@@ -341,12 +341,12 @@ This abbreviated syntax works for the qualified predicates except for `label` in
     1. Explain that no search result was found
     2. Suggest to provide a more specific search query.
 
-## Tool: dataplex_lookup_entry
+## Tool: lookup_entry
 
 ### Request
 
-1. Always try to limit the size of the response by specifying `aspect_types` parameter. Make sure to include to select view=CUSTOM when using aspect_types parameter. If you do not know the name of the aspect type, use the `dataplex_search_aspect_types` tool.
-2. If you do not know the name of the entry, use `dataplex_search_entries` tool
+1. Always try to limit the size of the response by specifying `aspect_types` parameter. Make sure to include to select view=CUSTOM when using aspect_types parameter. If you do not know the name of the aspect type, use the `search_aspect_types` tool.
+2. If you do not know the name of the entry, use `search_entries` tool
 
 ### Response
 
