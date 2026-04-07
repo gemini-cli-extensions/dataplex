@@ -46,7 +46,7 @@ gemini extensions install https://github.com/gemini-cli-extensions/knowledge-cat
 
 You will be prompted to configure the following settings during installation. These settings are saved in an `.env` file within the extension's directory.
 
-*   `DATAPLEX_PROJECT`: The GCP project ID.
+*   `KNOWLEDGE_CATALOG_PROJECT`: The GCP project ID.
 
 To view or update your configuration:
 
@@ -63,7 +63,7 @@ To view or update your configuration:
 Alternatively, you can manually set these environment variables before starting the Gemini CLI:
 
 ```bash
-export DATAPLEX_PROJECT="<your-gcp-project-id>"
+export KNOWLEDGE_CATALOG_PROJECT="<your-gcp-project-id>"
 ```
 
 > [!NOTE]
