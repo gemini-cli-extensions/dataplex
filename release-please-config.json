@@ -26,7 +26,7 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "knowledge-catalog",
+      "package-name": "dataplex",
       "extra-files": [
         {
           "type": "json",
