@@ -7,7 +7,7 @@
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
-        "knowledge-catalog",
+        "dataplex",
         "--stdio"
       ]
     }
@@ -17,7 +17,7 @@
     {
       "name": "Project ID",
       "description": "ID of the Google Cloud project",
-      "envVar": "KNOWLEDGE_CATALOG_PROJECT"
+      "envVar": "DATAPLEX_PROJECT"
     }
   ]
 }

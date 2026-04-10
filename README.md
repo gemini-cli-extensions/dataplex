@@ -46,7 +46,7 @@ gemini extensions install https://github.com/gemini-cli-extensions/knowledge-cat
 
 You will be prompted to configure the following settings during installation. These settings are saved in an `.env` file within the extension's directory.
 
-*   `KNOWLEDGE_CATALOG_PROJECT`: The GCP project ID.
+*   `DATAPLEX_PROJECT`: The GCP project ID.
 
 To view or update your configuration:
 
