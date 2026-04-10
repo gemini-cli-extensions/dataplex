@@ -1,7 +1,7 @@
 # DEVELOPER.md
 
 This document provides instructions for setting up your development environment
-and contributing to the Dataplex Gemini CLI Extension project.
+and contributing to the Knowledge Catalog (formerly known as Dataplex) Gemini CLI Extension project.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Before you begin, ensure you have the following:
 1.  **Gemini CLI:** Install the Gemini CLI version v0.6.0 or above. Installation
     instructions can be found on the official Gemini CLI documentation. You can
     verify your version by running `gemini --version`.
-2.  **Dataplex:** For testing tools, you will need access to an active Dataplex setup.
+2.  **Knowledge Catalog:** For testing tools, you will need access to an active Knowledge Catalog setup.
 
 ## Developing the Extension
 
@@ -21,8 +21,8 @@ The core logic for this extension is handled by a pre-built `toolbox` binary. Th
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/gemini-cli-extensions/dataplex.git
-    cd dataplex
+    git clone https://github.com/gemini-cli-extensions/knowledge-catalog.git
+    cd knowledge-catalog
     ```
 
 2.  **Download the Toolbox Binary:** The required version of the `toolbox` binary
@@ -47,7 +47,7 @@ The core logic for this extension is handled by a pre-built `toolbox` binary. Th
     The CLI will prompt you to confirm the linking. Accept it to proceed.
 
 4.  **Testing Changes:** After linking, start the Gemini CLI (`gemini`).
-    You can now interact with the `dataplex` tools to manually test your changes
+    You can now interact with the `knowledge-catalog` tools to manually test your changes
     against your connected database.
 
 ## Testing
@@ -76,7 +76,7 @@ are currently tested in the [MCP Toolbox GitHub](https://github.com/googleapis/g
 ## Building the Extension
 
 The "build" process for this extension involves packaging the extension's
-metadata files (`gemini-extension.json`, `dataplex.md`, `LICENSE`) along with the
+metadata files (`gemini-extension.json`, `KNOWLEDGE_CATALOG.md`, `LICENSE`) along with the
 pre-built `toolbox` binary into platform-specific archives (`.tar.gz` or `.zip`).
 
 This process is handled automatically by the
