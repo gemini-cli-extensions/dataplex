@@ -14,9 +14,9 @@ This section covers connecting to a Knowledge Catalog instance.
 
 1. **Verify Environment Variables**: The extension requires the following environment variables to be set before the Gemini CLI is started:
 
-    * `KNOWLEDGE_CATALOG_PROJECT`: The GCP project ID.
+    * `DATAPLEX_PROJECT`: The GCP project ID.
 
-2. **Handle Missing Variables**: If a command fails with an error message containing a placeholder like `${KNOWLEDGE_CATALOG_PROJECT}`, it signifies a missing environment variable. Inform the user which variable is missing and instruct them to set it.
+2. **Handle Missing Variables**: If a command fails with an error message containing a placeholder like `${DATAPLEX_PROJECT}`, it signifies a missing environment variable. Inform the user which variable is missing and instruct them to set it.
 
 3. **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Knowledge Catalog permissions:
     * Dataplex Reader (`roles/dataplex.viewer`) to search and look up entries.
