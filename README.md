@@ -63,7 +63,7 @@ To view or update your configuration:
 Alternatively, you can manually set these environment variables before starting the Gemini CLI:
 
 ```bash
-export KNOWLEDGE_CATALOG_PROJECT="<your-gcp-project-id>"
+export DATAPLEX_PROJECT="<your-gcp-project-id>"
 ```
 
 > [!NOTE]
