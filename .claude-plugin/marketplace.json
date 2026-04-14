@@ -1,0 +1,16 @@
+{
+  "name": "knowledge-catalog-marketplace",
+  "owner": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "metadata": {
+    "description": "Agent skills for Knowledge Catalog to discover, manage, and monitor data and AI artifacts."
+  },
+  "plugins": [
+    {
+      "name": "knowledge-catalog",
+      "source": "./"
+    }
+  ]
+}
