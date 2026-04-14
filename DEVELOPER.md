@@ -69,6 +69,8 @@ The primary maintainers for this repository are defined in the
 
 ### Releasing
 
+The release process is automated using `release-please`.
+
 1.  **Release PR:** When commits with conventional commit headers (e.g., `feat:`,
     `fix:`) are merged into the `main` branch, `release-please` will
     automatically create or update a "Release PR".
