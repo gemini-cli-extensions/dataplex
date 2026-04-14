@@ -10,7 +10,7 @@ Before you begin, ensure you have the following:
 1.  **Gemini CLI:** Install the Gemini CLI version v0.6.0 or above. Installation
     instructions can be found on the official Gemini CLI documentation. You can
     verify your version by running `gemini --version`.
-2.  **Knowledge Catalog Instance:** For testing discovery skills, you will need access to an active Google Cloud project with the Dataplex API enabled.
+2.  **Knowledge Catalog:** For testing tools, you will need access to an active Knowledge Catalog setup.
 
 ## Developing the Extension
 
