@@ -1,7 +1,7 @@
 # DEVELOPER.md
 
 This document provides instructions for setting up your development environment
-and contributing to the Knowledge Catalog Agent skills project.
+and contributing to the Knowledge Catalog (formerly known as Dataplex) Agent skills project.
 
 ## Prerequisites
 
