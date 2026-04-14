@@ -60,7 +60,7 @@ be successfully installed by the Gemini CLI.
 
 Currently, there are no automated unit or integration test suites
 within this repository. All functional testing must be performed manually. All tools
-are currently tested in the [MCP Toolbox GitHub](https://github.com/googleapis/genai-toolbox).
+are currently tested in the [MCP Toolbox GitHub](https://github.com/googleapis/mcp-toolbox).
 
 ### Other GitHub Checks
 
