@@ -65,7 +65,7 @@ The primary maintainers for this repository are defined in the
 [`.github/CODEOWNERS`](.github/CODEOWNERS) file:
 
 *   `@gemini-cli-extensions/senseai-eco`
-*   `@gemini-cli-extensions/knowledge-catalog-maintainers`
+*   `@gemini-cli-extensions/dataplex-maintainers`
 
 ### Releasing
 
