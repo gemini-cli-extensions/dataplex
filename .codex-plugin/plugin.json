@@ -1,0 +1,32 @@
+{
+  "name": "knowledge-catalog",
+  "version": "0.4.0",
+  "description": "Connect to Knowledge Catalog (formerly known as Dataplex) to discover, manage, monitor, and govern data and AI artifacts across your data platform",
+  "author": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "homepage": "https://cloud.google.com/dataplex",
+  "repository": "https://github.com/gemini-cli-extensions/knowledge-catalog",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dataplex",
+    "knowledge-catalog",
+    "google-cloud",
+    "data-governance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Knowledge Catalog",
+    "shortDescription": "Interact with Knowledge Catalog (Dataplex) to discover and manage data assets.",
+    "developerName": "Google LLC",
+    "category": "Data Governance",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Your primary objective is to help discover, organize and manage metadata related to data assets."
+    ]
+  }
+}
