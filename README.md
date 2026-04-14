@@ -1,4 +1,4 @@
-# Knowledge Catalog Agent Skills (formerly known as Dataplex)
+# Agent Skills: Knowledge Catalog (formerly known as Dataplex)
 
 > [!NOTE]
 > Currently in beta (pre-v1.0), and may see breaking changes until the first stable release (v1.0).
