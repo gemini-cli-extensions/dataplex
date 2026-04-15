@@ -18,7 +18,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Knowledge Catalog",
-    "shortDescription": "Interact with Knowledge Catalog (Dataplex) to discover and manage data assets.",
+    "shortDescription": "Interact with Knowledge Catalog to discover and manage data assets.",
     "developerName": "Google LLC",
     "category": "Data Governance",
     "capabilities": [
