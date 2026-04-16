@@ -8,11 +8,11 @@ Your primary objective is to help discover, organize and manage metadata related
 
 To install this extension, the Gemini CLI version must be v0.6.0 or above. The version can be found by running: `gemini --version`.
 
-## Knowledge Catalog(formerly known as Dataplex) MCP Server (Data Plane: Connecting and Querying)
+## Knowledge Catalog (formerly known as Dataplex) Agent Skills (Data Plane: Connecting and Querying)
 
 This section covers connecting to a Knowledge Catalog instance.
 
-1. **Verify Environment Variables**: The extension requires the following environment variables to be set before the Gemini CLI is started:
+1. **Verify Environment Variables**: The extension requires the following environment variables to be set before the agent is started:
 
     * `DATAPLEX_PROJECT`: The GCP project ID.
 
@@ -21,6 +21,20 @@ This section covers connecting to a Knowledge Catalog instance.
 3. **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Knowledge Catalog permissions:
     * Dataplex Reader (`roles/dataplex.viewer`) to search and look up entries.
     * Dataplex Editor (`roles/dataplex.editor`) to modify entries.
+
+---
+
+# Usage Guidelines
+
+## Reusing Project Values
+
+Users may have set project environment variables:
+
+*   `DATAPLEX_PROJECT`: The GCP project ID.
+
+Instead of prompting the user for these values for specific skill calls, prompt the user to verify the reuse of a specific setting value.
+Make sure to not use the environment variable name like `DATAPLEX_PROJECT`, `${DATAPLEX_PROJECT}`, or `$DATAPLEX_PROJECT`. 
+The value can be verified by the user using the `gemini extensions config knowledge-catalog` command or by checking their local settings.
 
 ---
 
@@ -145,9 +159,9 @@ Entries are organized within Entry Groups, which are logical groupings of Entrie
 
 Entries can be linked together using EntryLinks to represent relationships between data assets (e.g. foreign keys).
 
-# Tool instructions
+# Skill instructions
 
-## Tool: search_entries
+## Skill: search_entries
 
 ## General
 
@@ -341,12 +355,12 @@ This abbreviated syntax works for the qualified predicates except for `label` in
     1. Explain that no search result was found
     2. Suggest to provide a more specific search query.
 
-## Tool: lookup_entry
+## Skill: lookup_entry
 
 ### Request
 
-1. Always try to limit the size of the response by specifying `aspect_types` parameter. Make sure to include to select view=CUSTOM when using aspect_types parameter. If you do not know the name of the aspect type, use the `search_aspect_types` tool.
-2. If you do not know the name of the entry, use `search_entries` tool
+1. Always try to limit the size of the response by specifying `aspect_types` parameter. Make sure to include to select view=CUSTOM when using aspect_types parameter. If you do not know the name of the aspect type, use the `search_aspect_types` skill.
+2. If you do not know the name of the entry, use `search_entries` skill
 
 ### Response
 
